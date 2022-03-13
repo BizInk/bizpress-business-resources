@@ -31,7 +31,7 @@ add_filter( 'cx-settings-fields', 'business_settings_fields', 10, 2 );
 function business_content( $types ) {
 	$types[] = [
 		'key' 	=> 'business_content_page',
-		'type'	=> 'business-content'
+		'type'	=> 'business-lifecycle'
 	];
 
 	return $types;
