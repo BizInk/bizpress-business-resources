@@ -1,7 +1,7 @@
 <?php
 /**
- * Plugin Name: Bizink Client Business
- * Description: Bizink Client Business by Bizink
+ * Plugin Name: BizPress Business Resources
+ * Description: Show business resources on your site. Automatically updated by the Bizink team.
  * Plugin URI: https://bizinkonline.com
  * Author: Bizink
  * Author URI: https://bizinkonline.com
