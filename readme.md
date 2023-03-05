@@ -2,7 +2,7 @@
 
 BizPress is Bizink's collection of WordPress plugins.
 
-## BizPress Pliguns
+## BizPress Plugins
 - BizPress Main - [https://github.com/BizInk/bizpress-client](https://github.com/BizInk/bizpress-client)
 - BizPress - Client Accounting [https://github.com/BizInk/bizpress-accounting-glossary](https://github.com/BizInk/bizpress-accounting-glossary)
 - BizPress - Business Terms Glossary [https://github.com/BizInk/bizpress-business-terms-glossary](https://github.com/BizInk/bizpress-business-terms-glossary)
