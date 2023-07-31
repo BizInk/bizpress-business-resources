@@ -1,11 +1,11 @@
 <?php
 /**
- * Plugin Name: BizPress Business Resources
+ * Plugin Name: BizPress Business Lifecycle
  * Description: Show business resources on your site. Automatically updated by the Bizink team.
  * Plugin URI: https://bizinkonline.com
  * Author: Bizink
  * Author URI: https://bizinkonline.com
- * Version: 1.2.1
+ * Version: 1.2.2
  * Text Domain: bizink-client-business
  * Domain Path: /languages
  */

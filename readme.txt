@@ -1,10 +1,9 @@
-=== Bizpress Xero Resources ===
+=== BizPress Business Lifecycle ===
 Contributors: Bizink,Jayden Major
-Tags: Bizink, Bizpress, business content, marketing
+Tags: Bizink, BizPress, business content, marketing
 Requires at least: 5.6
-Tested up to: 6.0.3
-Stable tag: 1.2.1
-Version: 1.2.1
+Tested up to: 6.2.2
+Stable tag: 1.2.2
 Requires PHP: 7.0
 
 Display business content on your website that is automatically updated by the Bizink team.
@@ -15,6 +14,9 @@ Display business content on your website that is automatically updated by the Bi
 
 == Changelog ==
 
+= 1.2.2 =
+* Added Page Select Support
+
 = 1.2.1 =
 * Remove page requirment
 
@@ -22,10 +24,10 @@ Display business content on your website that is automatically updated by the Bi
 * Updating the updater
 
 = 1.1 =
-* Added fix for checking for the main bizpress plugin
+* Added fix for checking for the main BizPress plugin
 
 = 1.0 =
-* Bizpress launch
+* BizPress launch
 
 = 0.9 =
 * Pre Realease
