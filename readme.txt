@@ -2,7 +2,7 @@
 Contributors: Bizink,Jayden Major
 Tags: Bizink, BizPress, business content, marketing
 Requires at least: 5.6
-Tested up to: 6.2.2
+Tested up to: 6.3.1
 Stable tag: 1.2.2
 Requires PHP: 7.0
 
