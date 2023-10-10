@@ -89,10 +89,10 @@ function bizpress_businesscontent_init(){
     $post = bizpress_get_businesscontent_page_object();
     if( is_object( $post ) && get_post_type( $post ) == "page" ){
         add_rewrite_tag('%'.$post->post_name.'%', '([^&]+)', 'bizpress=');
-		add_rewrite_rule('^'.$post->post_name . '/([^/]+)/?$','index.php?pagename=business-content&bizpress=$matches[1]','top');
-		add_rewrite_rule("^".$post->post_name."/([a-z0-9-]+)[/]?$",'index.php?pagename=business-content&bizpress=$matches[1]','top');
-		add_rewrite_rule("^".$post->post_name."/topic/([a-z0-9-]+)[/]?$",'index.php?pagename=business-content&topic=$matches[1]','top');
-		add_rewrite_rule("^".$post->post_name."/type/([a-z0-9-]+)[/]?$" ,'index.php?pagename=business-content&type=$matches[1]','top');
+		add_rewrite_rule('^'.$post->post_name . '/([^/]+)/?$','index.php?pagename=business-resources&bizpress=$matches[1]','top');
+		add_rewrite_rule("^".$post->post_name."/([a-z0-9-]+)[/]?$",'index.php?pagename=business-resources&bizpress=$matches[1]','top');
+		add_rewrite_rule("^".$post->post_name."/topic/([a-z0-9-]+)[/]?$",'index.php?pagename=business-resources&topic=$matches[1]','top');
+		add_rewrite_rule("^".$post->post_name."/type/([a-z0-9-]+)[/]?$" ,'index.php?pagename=business-resources&type=$matches[1]','top');
     }
 }
 
