@@ -1,10 +1,10 @@
 === BizPress Business Resources ===
 Contributors: Bizink,Jayden Major
 Tags: Bizink, BizPress, business content, marketing
-Requires at least: 5.6
-Tested up to: 6.3.1
-Stable tag: 1.2.5
-Requires PHP: 7.0
+Requires at least: 6.0
+Tested up to: 6.8.3
+Stable tag: 1.2.6
+Requires PHP: 7.4
 
 Display business content on your website that is automatically updated by the Bizink team.
 
@@ -13,6 +13,10 @@ Display business content on your website that is automatically updated by the Bi
 
 
 == Changelog ==
+
+= 1.2.6 =
+* Update Updater
+* Site Map
 
 = 1.2.5 =
 * Updateing Updater
