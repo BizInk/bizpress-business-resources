@@ -173,8 +173,8 @@ function bizpress_business_resourcesxml_query($vars) {
 }
 
 function bizpress_business_resources_sitemap_custom_items( $sitemap_custom_items ) {
-	$enable_sitemap = cxbc_get_option( 'bizpress_seo', 'business_sitemap' );
-	if ( $enable_sitemap == 'off' || $enable_sitemap == 0 || $enable_sitemap == false ) {
+	$enable_sitemap = cxbc_get_option( 'bizpress_seo', 'business_sitemap', true );
+	if ( ($enable_sitemap == 'off' || $enable_sitemap == 0 || $enable_sitemap == false) && $enable_sitemap != 1 ) {
 		return $sitemap_custom_items;
 	}
 
