@@ -63,6 +63,21 @@ function bizpress_businesscontent_settings_fields( $fields, $section ) {
         );
     }
 
+	if('bizpress_seo' == $section['id']){
+		$fields['business'] = array(
+            'id' => 'business',
+            'label'	=> __( 'Business Resources', 'bizink-client' ),
+            'type' => 'divider'
+        );
+		$fields['business_sitemap'] = array(
+            'id' => 'business_sitemap',
+            'label'	=> __( 'Enable Sitemap - Business Resources', 'bizink-client' ),
+            'type' => 'switch',
+			'default' => 'on',
+			'desc' => __( 'Enable the sitemap for the business resources page.', 'bizink-client' ),
+        );
+	}
+
     return $fields;
 }
 add_filter( 'cx-settings-fields', 'bizpress_businesscontent_settings_fields', 10, 2 );
@@ -158,6 +173,11 @@ function bizpress_business_resourcesxml_query($vars) {
 }
 
 function bizpress_business_resources_sitemap_custom_items( $sitemap_custom_items ) {
+	$enable_sitemap = cxbc_get_option( 'bizpress_seo', 'business_sitemap' );
+	if ( $enable_sitemap == 'off' || $enable_sitemap == 0 || $enable_sitemap == false ) {
+		return $sitemap_custom_items;
+	}
+
     $sitemap_custom_items .= '
 	<sitemap>
 		<loc>'.get_home_url().'/business_resources.xml</loc>
